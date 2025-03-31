@@ -1,7 +1,6 @@
 import argparse
 import socket
 
-
 PORT_NUM = 200
 
 def get_time():

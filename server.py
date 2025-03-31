@@ -1,10 +1,11 @@
 import argparse
 import socket
 import datetime
+import subprocess
+
 
 PORT_NUM = 200
 
-import subprocess
 
 def check_port(PORT_NUM):
     command = f"netstat -ano | findstr :{PORT_NUM}"
